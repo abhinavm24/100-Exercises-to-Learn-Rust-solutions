@@ -3,5 +3,8 @@ fn main() {
     // via `std::mem::size_of` will result in a compile-time error.
     //
     // TODO: Comment out the following line and move on to the next exercise.
-    std::mem::size_of::<str>();
+    std::mem::size_of::<String>();
+    std::mem::size_of::<&String>();
+    // std::mem::size_of::<str>();
+    std::mem::size_of::<&str>();
 }

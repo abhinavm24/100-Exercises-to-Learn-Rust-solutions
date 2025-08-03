@@ -18,4 +18,9 @@ impl Ticket {
 
 // TODO: Implement the `PartialEq` trait for `Ticket`.
 impl PartialEq for Ticket {
-    f/* TODO */}
+    fn eq(&self, other: &Self) -> bool {
+        self.title == other.title
+            && self.description == other.description
+            && self.status == other.status
+    }
+}

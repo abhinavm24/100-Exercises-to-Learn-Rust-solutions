@@ -10,12 +10,15 @@ pub struct Ticket {
     status: Status,
 }
 
-/* TODO */
+#[derive(Debug, PartialEq, Copy, Clone)]
 pub enum Status {
-    /* TODO */
+    ToDo,
+    InProgress,
+    Done,
+}
 
 impl Ticket {
-    pub fn new(title: String, description: String, status: St/* TODO */-> Ticket {
+    pub fn new(title: String, description: String, status: Status) -> Ticket {
         if title.is_empty() {
             panic!("Title cannot be empty");
         }
@@ -44,7 +47,7 @@ impl Ticket {
         &self.description
     }
 
-    pub fn status(&self) -> &/* TODO */{
+    pub fn status(&self) -> &Status {
         &self.status
     }
 }

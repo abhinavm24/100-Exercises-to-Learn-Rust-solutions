@@ -31,15 +31,15 @@ impl Ticket {
         }
     }
 
-    pub fn title(&self) -/* TODO */tr {
+    pub fn title(&self) -> &str {
         &self.title
     }
 
-    pub fn description(&self) -/* TODO */tr {
+    pub fn description(&self) -> &str {
         &self.description
     }
 
-    pub fn status(&self) -/* TODO */tr {
+    pub fn status(&self) -> &str {
         &self.status
     }
 }

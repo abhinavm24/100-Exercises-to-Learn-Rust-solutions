@@ -9,7 +9,7 @@ pub trait IsEven {
 
 impl IsEven for u32 {
     fn is_even(&self) -> bool {
-        self % 2 ==0
+        self % 2 == 0
     }
 }
 

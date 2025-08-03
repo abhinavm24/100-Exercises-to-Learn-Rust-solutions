@@ -8,7 +8,7 @@
 use std::cmp::max;
 
 /// Return the minimum of two values.
-pub fn min<T/* TODO */>(left: T, right: T) -> T {
+pub fn min<T: Ord>(left: T, right: T) -> T {
     if left <= right {
         left
     } else {
@@ -18,4 +18,5 @@ pub fn min<T/* TODO */>(left: T, right: T) -> T {
 
 fn main() {
     assert_eq!(min(17, 15), 15);
+    assert_eq!(max(17, 19), 19);
 }

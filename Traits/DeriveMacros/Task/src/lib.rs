@@ -8,7 +8,7 @@
 // print both sides of the comparison to the terminal.
 // If the compared type doesn't implement `Debug`, it doesn't know how to represent them!
 
-#[derive(/* TODO */PartialEq)]
+#[derive(Debug, PartialEq)]
 pub struct Ticket {
     title: String,
     description: String,

@@ -4,45 +4,45 @@ files:
     visible: true
     placeholders:
       - offset: 425
-        length: 10
+        length: 40
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 425
         initialized_from_dependency: false
         encrypted_possible_answer: rI2CgUVE9RtmedI5+2w1djIb6NJJN5TV7IzE0JqqwR1aRWxTXmDWIqTJ5OEOSik+
-        selected: false
-        status: Unchecked
-      - offset: 458
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 520
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 458
         initialized_from_dependency: false
         encrypted_possible_answer: /8cd/QDfiFMjAqsMx+jMSKlnt82EHc3XwH7VBqV10rdLic8P7OAEFUNPDmdXFmrE
-        selected: false
-        status: Unchecked
-      - offset: 545
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 598
+        length: 6
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 545
         initialized_from_dependency: false
         encrypted_possible_answer: u6z6FAVLyaFV8xpqt7NSdg==
-        selected: false
-        status: Unchecked
-      - offset: 1231
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 1280
+        length: 7
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 1231
         initialized_from_dependency: false
         encrypted_possible_answer: yefcBa1DWH84XHxWkDV1ng==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -50,5 +50,8 @@ files:
   - name: tests/tests.rs
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 03 Aug 2025 12:16:21 UTC"
 record: -1

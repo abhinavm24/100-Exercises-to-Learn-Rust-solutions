@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 494
-        length: 10
+        length: 5
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -23,5 +23,8 @@ files:
   - name: tests/input.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 03 Aug 2025 07:00:49 UTC"
 record: -1
